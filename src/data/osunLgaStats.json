@@ -1,0 +1,58 @@
+{
+  "Osogbo": {
+    "wardCount": 10,
+    "pollingUnitCount": 226,
+    "votesCast": 75635,
+    "accreditedVoters": 82067,
+    "registeredVoters": 154000
+  },
+  "Olorunda": {
+    "wardCount": 10,
+    "pollingUnitCount": 184,
+    "votesCast": 82480,
+    "accreditedVoters": 90239,
+    "registeredVoters": 132000
+  },
+  "Ife Central": {
+    "wardCount": 10,
+    "pollingUnitCount": 198,
+    "votesCast": 82064,
+    "accreditedVoters": 87602,
+    "registeredVoters": 145000
+  },
+  "Ilesa East": {
+    "wardCount": 10,
+    "pollingUnitCount": 165,
+    "votesCast": 75992,
+    "accreditedVoters": 82116,
+    "registeredVoters": 112000
+  },
+  "Ede North": {
+    "wardCount": 10,
+    "pollingUnitCount": 142,
+    "votesCast": 86036,
+    "accreditedVoters": 91648,
+    "registeredVoters": 98000
+  },
+  "Iwo": {
+    "wardCount": 10,
+    "pollingUnitCount": 180,
+    "votesCast": 79698,
+    "accreditedVoters": 86100,
+    "registeredVoters": 125000
+  },
+  "Ejigbo": {
+    "wardCount": 10,
+    "pollingUnitCount": 154,
+    "votesCast": 82855,
+    "accreditedVoters": 88524,
+    "registeredVoters": 106000
+  },
+  "Irepodun": {
+    "wardCount": 10,
+    "pollingUnitCount": 128,
+    "votesCast": 90389,
+    "accreditedVoters": 96162,
+    "registeredVoters": 89000
+  }
+}

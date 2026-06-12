@@ -1,0 +1,722 @@
+[
+  {
+    "id": "osun-osogbo-1",
+    "name": "Ataoja A",
+    "lat": 7.7715,
+    "lng": 4.58239,
+    "lga": "Osogbo",
+    "votesCast": 7405,
+    "accreditedVoters": 8333
+  },
+  {
+    "id": "osun-osogbo-2",
+    "name": "Ataoja B",
+    "lat": 7.79445,
+    "lng": 4.59278,
+    "lga": "Osogbo",
+    "votesCast": 7435,
+    "accreditedVoters": 8400
+  },
+  {
+    "id": "osun-osogbo-3",
+    "name": "Ataoja C",
+    "lat": 7.79298,
+    "lng": 4.56818,
+    "lga": "Osogbo",
+    "votesCast": 6803,
+    "accreditedVoters": 7786
+  },
+  {
+    "id": "osun-osogbo-4",
+    "name": "Ataoja D",
+    "lat": 7.7985,
+    "lng": 4.55243,
+    "lga": "Osogbo",
+    "votesCast": 8620,
+    "accreditedVoters": 9329
+  },
+  {
+    "id": "osun-osogbo-5",
+    "name": "Ataoja E",
+    "lat": 7.78903,
+    "lng": 4.53707,
+    "lga": "Osogbo",
+    "votesCast": 8479,
+    "accreditedVoters": 8942
+  },
+  {
+    "id": "osun-osogbo-6",
+    "name": "Alajue",
+    "lat": 7.7715,
+    "lng": 4.52609,
+    "lga": "Osogbo",
+    "votesCast": 6265,
+    "accreditedVoters": 6522
+  },
+  {
+    "id": "osun-osogbo-7",
+    "name": "Ekuro",
+    "lat": 7.74839,
+    "lng": 4.52939,
+    "lga": "Osogbo",
+    "votesCast": 7345,
+    "accreditedVoters": 7924
+  },
+  {
+    "id": "osun-osogbo-8",
+    "name": "Jagun",
+    "lat": 7.75177,
+    "lng": 4.55479,
+    "lga": "Osogbo",
+    "votesCast": 9159,
+    "accreditedVoters": 9480
+  },
+  {
+    "id": "osun-osogbo-9",
+    "name": "Otun Jagun A",
+    "lat": 7.74952,
+    "lng": 4.56834,
+    "lga": "Osogbo",
+    "votesCast": 7479,
+    "accreditedVoters": 8254
+  },
+  {
+    "id": "osun-osogbo-10",
+    "name": "Otun Jagun B",
+    "lat": 7.75411,
+    "lng": 4.58513,
+    "lga": "Osogbo",
+    "votesCast": 6645,
+    "accreditedVoters": 7097
+  },
+  {
+    "id": "osun-olorunda-1",
+    "name": "Agowande",
+    "lat": 7.8015,
+    "lng": 4.60259,
+    "lga": "Olorunda",
+    "votesCast": 9738,
+    "accreditedVoters": 10514
+  },
+  {
+    "id": "osun-olorunda-2",
+    "name": "Akogun",
+    "lat": 7.82087,
+    "lng": 4.60906,
+    "lga": "Olorunda",
+    "votesCast": 6822,
+    "accreditedVoters": 7448
+  },
+  {
+    "id": "osun-olorunda-3",
+    "name": "Aare",
+    "lat": 7.82384,
+    "lng": 4.58966,
+    "lga": "Olorunda",
+    "votesCast": 9563,
+    "accreditedVoters": 10525
+  },
+  {
+    "id": "osun-olorunda-4",
+    "name": "Bale Gbonmi",
+    "lat": 7.83091,
+    "lng": 4.57284,
+    "lga": "Olorunda",
+    "votesCast": 6520,
+    "accreditedVoters": 7352
+  },
+  {
+    "id": "osun-olorunda-5",
+    "name": "Obatedo",
+    "lat": 7.81815,
+    "lng": 4.55949,
+    "lga": "Olorunda",
+    "votesCast": 9464,
+    "accreditedVoters": 10104
+  },
+  {
+    "id": "osun-olorunda-6",
+    "name": "Owolape",
+    "lat": 7.8015,
+    "lng": 4.5578,
+    "lga": "Olorunda",
+    "votesCast": 6516,
+    "accreditedVoters": 7504
+  },
+  {
+    "id": "osun-olorunda-7",
+    "name": "Sabon Gari",
+    "lat": 7.78957,
+    "lng": 4.56598,
+    "lga": "Olorunda",
+    "votesCast": 8744,
+    "accreditedVoters": 9575
+  },
+  {
+    "id": "osun-olorunda-8",
+    "name": "Igbona",
+    "lat": 7.77887,
+    "lng": 4.57505,
+    "lga": "Olorunda",
+    "votesCast": 7101,
+    "accreditedVoters": 7557
+  },
+  {
+    "id": "osun-olorunda-9",
+    "name": "Ilare",
+    "lat": 7.77484,
+    "lng": 4.59106,
+    "lga": "Olorunda",
+    "votesCast": 9624,
+    "accreditedVoters": 10292
+  },
+  {
+    "id": "osun-olorunda-10",
+    "name": "Olorunda Ward",
+    "lat": 7.77914,
+    "lng": 4.61317,
+    "lga": "Olorunda",
+    "votesCast": 8388,
+    "accreditedVoters": 9368
+  },
+  {
+    "id": "osun-ife-central-1",
+    "name": "Ilare I",
+    "lat": 7.4715,
+    "lng": 4.58078,
+    "lga": "Ife Central",
+    "votesCast": 6125,
+    "accreditedVoters": 6862
+  },
+  {
+    "id": "osun-ife-central-2",
+    "name": "Ilare II",
+    "lat": 7.495,
+    "lng": 4.58514,
+    "lga": "Ife Central",
+    "votesCast": 9497,
+    "accreditedVoters": 10376
+  },
+  {
+    "id": "osun-ife-central-3",
+    "name": "Ilare III",
+    "lat": 7.50492,
+    "lng": 4.56366,
+    "lga": "Ife Central",
+    "votesCast": 8700,
+    "accreditedVoters": 9293
+  },
+  {
+    "id": "osun-ife-central-4",
+    "name": "Ilare IV",
+    "lat": 7.49105,
+    "lng": 4.54645,
+    "lga": "Ife Central",
+    "votesCast": 7644,
+    "accreditedVoters": 8162
+  },
+  {
+    "id": "osun-ife-central-5",
+    "name": "More",
+    "lat": 7.48988,
+    "lng": 4.5275,
+    "lga": "Ife Central",
+    "votesCast": 9825,
+    "accreditedVoters": 10163
+  },
+  {
+    "id": "osun-ife-central-6",
+    "name": "Iremo",
+    "lat": 7.4715,
+    "lng": 4.52279,
+    "lga": "Ife Central",
+    "votesCast": 7716,
+    "accreditedVoters": 8051
+  },
+  {
+    "id": "osun-ife-central-7",
+    "name": "Gbodo",
+    "lat": 7.45669,
+    "lng": 4.53241,
+    "lga": "Ife Central",
+    "votesCast": 8531,
+    "accreditedVoters": 8892
+  },
+  {
+    "id": "osun-ife-central-8",
+    "name": "Okerewe",
+    "lat": 7.43969,
+    "lng": 4.54247,
+    "lga": "Ife Central",
+    "votesCast": 9419,
+    "accreditedVoters": 9696
+  },
+  {
+    "id": "osun-ife-central-9",
+    "name": "Yekemi",
+    "lat": 7.43883,
+    "lng": 4.56341,
+    "lga": "Ife Central",
+    "votesCast": 8052,
+    "accreditedVoters": 8609
+  },
+  {
+    "id": "osun-ife-central-10",
+    "name": "Central Ward",
+    "lat": 7.4545,
+    "lng": 4.57619,
+    "lga": "Ife Central",
+    "votesCast": 6555,
+    "accreditedVoters": 7498
+  },
+  {
+    "id": "osun-ilesa-east-1",
+    "name": "Biladu",
+    "lat": 7.6323,
+    "lng": 4.7895,
+    "lga": "Ilesa East",
+    "votesCast": 8304,
+    "accreditedVoters": 8920
+  },
+  {
+    "id": "osun-ilesa-east-2",
+    "name": "Bolorunduro",
+    "lat": 7.64787,
+    "lng": 4.78373,
+    "lga": "Ilesa East",
+    "votesCast": 9710,
+    "accreditedVoters": 10070
+  },
+  {
+    "id": "osun-ilesa-east-3",
+    "name": "Omofe",
+    "lat": 7.659,
+    "lng": 4.77098,
+    "lga": "Ilesa East",
+    "votesCast": 6293,
+    "accreditedVoters": 7219
+  },
+  {
+    "id": "osun-ilesa-east-4",
+    "name": "Okesa",
+    "lat": 7.66438,
+    "lng": 4.75188,
+    "lga": "Ilesa East",
+    "votesCast": 6368,
+    "accreditedVoters": 7172
+  },
+  {
+    "id": "osun-ilesa-east-5",
+    "name": "Imo",
+    "lat": 7.64625,
+    "lng": 4.7431,
+    "lga": "Ilesa East",
+    "votesCast": 6510,
+    "accreditedVoters": 6884
+  },
+  {
+    "id": "osun-ilesa-east-6",
+    "name": "Ilaje",
+    "lat": 7.6323,
+    "lng": 4.73837,
+    "lga": "Ilesa East",
+    "votesCast": 8407,
+    "accreditedVoters": 8805
+  },
+  {
+    "id": "osun-ilesa-east-7",
+    "name": "Odorati",
+    "lat": 7.62047,
+    "lng": 4.74602,
+    "lga": "Ilesa East",
+    "votesCast": 7809,
+    "accreditedVoters": 8596
+  },
+  {
+    "id": "osun-ilesa-east-8",
+    "name": "Araromi",
+    "lat": 7.61029,
+    "lng": 4.75515,
+    "lga": "Ilesa East",
+    "votesCast": 7562,
+    "accreditedVoters": 8187
+  },
+  {
+    "id": "osun-ilesa-east-9",
+    "name": "Isida",
+    "lat": 7.59833,
+    "lng": 4.77334,
+    "lga": "Ilesa East",
+    "votesCast": 6490,
+    "accreditedVoters": 6770
+  },
+  {
+    "id": "osun-ilesa-east-10",
+    "name": "East Ward",
+    "lat": 7.60906,
+    "lng": 4.79429,
+    "lga": "Ilesa East",
+    "votesCast": 8539,
+    "accreditedVoters": 9493
+  },
+  {
+    "id": "osun-ede-north-1",
+    "name": "Oloba",
+    "lat": 7.7384,
+    "lng": 4.45858,
+    "lga": "Ede North",
+    "votesCast": 8149,
+    "accreditedVoters": 8426
+  },
+  {
+    "id": "osun-ede-north-2",
+    "name": "Olodan",
+    "lat": 7.75116,
+    "lng": 4.45376,
+    "lga": "Ede North",
+    "votesCast": 6918,
+    "accreditedVoters": 7141
+  },
+  {
+    "id": "osun-ede-north-3",
+    "name": "Sagba",
+    "lat": 7.75884,
+    "lng": 4.44284,
+    "lga": "Ede North",
+    "votesCast": 9621,
+    "accreditedVoters": 10404
+  },
+  {
+    "id": "osun-ede-north-4",
+    "name": "Isibo",
+    "lat": 7.76218,
+    "lng": 4.42847,
+    "lga": "Ede North",
+    "votesCast": 6248,
+    "accreditedVoters": 6898
+  },
+  {
+    "id": "osun-ede-north-5",
+    "name": "Apala",
+    "lat": 7.76007,
+    "lng": 4.40637,
+    "lga": "Ede North",
+    "votesCast": 7136,
+    "accreditedVoters": 7864
+  },
+  {
+    "id": "osun-ede-north-6",
+    "name": "Ede Ward 1",
+    "lat": 7.7384,
+    "lng": 4.40763,
+    "lga": "Ede North",
+    "votesCast": 9547,
+    "accreditedVoters": 9765
+  },
+  {
+    "id": "osun-ede-north-7",
+    "name": "Ede Ward 2",
+    "lat": 7.71513,
+    "lng": 4.40417,
+    "lga": "Ede North",
+    "votesCast": 10310,
+    "accreditedVoters": 10867
+  },
+  {
+    "id": "osun-ede-north-8",
+    "name": "Ede Ward 3",
+    "lat": 7.70833,
+    "lng": 4.42643,
+    "lga": "Ede North",
+    "votesCast": 8214,
+    "accreditedVoters": 9194
+  },
+  {
+    "id": "osun-ede-north-9",
+    "name": "Ede Ward 4",
+    "lat": 7.71932,
+    "lng": 4.4424,
+    "lga": "Ede North",
+    "votesCast": 9553,
+    "accreditedVoters": 10496
+  },
+  {
+    "id": "osun-ede-north-10",
+    "name": "Ede Ward 5",
+    "lat": 7.71537,
+    "lng": 4.4679,
+    "lga": "Ede North",
+    "votesCast": 10340,
+    "accreditedVoters": 10593
+  },
+  {
+    "id": "osun-iwo-1",
+    "name": "Isale Oba",
+    "lat": 7.6292,
+    "lng": 4.21346,
+    "lga": "Iwo",
+    "votesCast": 8467,
+    "accreditedVoters": 9258
+  },
+  {
+    "id": "osun-iwo-2",
+    "name": "Molete",
+    "lat": 7.64858,
+    "lng": 4.20808,
+    "lga": "Iwo",
+    "votesCast": 9776,
+    "accreditedVoters": 10399
+  },
+  {
+    "id": "osun-iwo-3",
+    "name": "Oke Adan",
+    "lat": 7.65292,
+    "lng": 4.18911,
+    "lga": "Iwo",
+    "votesCast": 6233,
+    "accreditedVoters": 7156
+  },
+  {
+    "id": "osun-iwo-4",
+    "name": "Oke Oba",
+    "lat": 7.6613,
+    "lng": 4.17097,
+    "lga": "Iwo",
+    "votesCast": 7899,
+    "accreditedVoters": 8506
+  },
+  {
+    "id": "osun-iwo-5",
+    "name": "Gidigbo",
+    "lat": 7.6422,
+    "lng": 4.1635,
+    "lga": "Iwo",
+    "votesCast": 6155,
+    "accreditedVoters": 6897
+  },
+  {
+    "id": "osun-iwo-6",
+    "name": "Iwo Ward 1",
+    "lat": 7.6292,
+    "lng": 4.14558,
+    "lga": "Iwo",
+    "votesCast": 9944,
+    "accreditedVoters": 10219
+  },
+  {
+    "id": "osun-iwo-7",
+    "name": "Iwo Ward 2",
+    "lat": 7.60856,
+    "lng": 4.153,
+    "lga": "Iwo",
+    "votesCast": 8184,
+    "accreditedVoters": 8796
+  },
+  {
+    "id": "osun-iwo-8",
+    "name": "Iwo Ward 3",
+    "lat": 7.59131,
+    "lng": 4.16909,
+    "lga": "Iwo",
+    "votesCast": 7074,
+    "accreditedVoters": 7607
+  },
+  {
+    "id": "osun-iwo-9",
+    "name": "Iwo Ward 4",
+    "lat": 7.59129,
+    "lng": 4.19372,
+    "lga": "Iwo",
+    "votesCast": 8849,
+    "accreditedVoters": 9593
+  },
+  {
+    "id": "osun-iwo-10",
+    "name": "Iwo Ward 5",
+    "lat": 7.60803,
+    "lng": 4.21054,
+    "lga": "Iwo",
+    "votesCast": 7117,
+    "accreditedVoters": 7669
+  },
+  {
+    "id": "osun-ejigbo-1",
+    "name": "Ejigbo Ward 1",
+    "lat": 7.9022,
+    "lng": 4.3401,
+    "lga": "Ejigbo",
+    "votesCast": 8102,
+    "accreditedVoters": 8783
+  },
+  {
+    "id": "osun-ejigbo-2",
+    "name": "Ejigbo Ward 2",
+    "lat": 7.92031,
+    "lng": 4.33002,
+    "lga": "Ejigbo",
+    "votesCast": 8882,
+    "accreditedVoters": 9296
+  },
+  {
+    "id": "osun-ejigbo-3",
+    "name": "Ejigbo Ward 3",
+    "lat": 7.9263,
+    "lng": 4.31293,
+    "lga": "Ejigbo",
+    "votesCast": 6477,
+    "accreditedVoters": 6891
+  },
+  {
+    "id": "osun-ejigbo-4",
+    "name": "Ejigbo Ward 4",
+    "lat": 7.9346,
+    "lng": 4.29457,
+    "lga": "Ejigbo",
+    "votesCast": 9017,
+    "accreditedVoters": 9623
+  },
+  {
+    "id": "osun-ejigbo-5",
+    "name": "Ejigbo Ward 5",
+    "lat": 7.92488,
+    "lng": 4.27389,
+    "lga": "Ejigbo",
+    "votesCast": 6981,
+    "accreditedVoters": 7643
+  },
+  {
+    "id": "osun-ejigbo-6",
+    "name": "Ejigbo Ward 6",
+    "lat": 7.9022,
+    "lng": 4.27012,
+    "lga": "Ejigbo",
+    "votesCast": 6718,
+    "accreditedVoters": 7172
+  },
+  {
+    "id": "osun-ejigbo-7",
+    "name": "Ejigbo Ward 7",
+    "lat": 7.88417,
+    "lng": 4.28028,
+    "lga": "Ejigbo",
+    "votesCast": 9812,
+    "accreditedVoters": 10784
+  },
+  {
+    "id": "osun-ejigbo-8",
+    "name": "Ejigbo Ward 8",
+    "lat": 7.8784,
+    "lng": 4.29737,
+    "lga": "Ejigbo",
+    "votesCast": 6916,
+    "accreditedVoters": 7494
+  },
+  {
+    "id": "osun-ejigbo-9",
+    "name": "Ejigbo Ward 9",
+    "lat": 7.88078,
+    "lng": 4.31206,
+    "lga": "Ejigbo",
+    "votesCast": 10494,
+    "accreditedVoters": 10904
+  },
+  {
+    "id": "osun-ejigbo-10",
+    "name": "Ejigbo Ward 10",
+    "lat": 7.88774,
+    "lng": 4.32501,
+    "lga": "Ejigbo",
+    "votesCast": 9456,
+    "accreditedVoters": 9934
+  },
+  {
+    "id": "osun-irepodun-1",
+    "name": "Irepodun Ward 1",
+    "lat": 7.8712,
+    "lng": 4.54523,
+    "lga": "Irepodun",
+    "votesCast": 10033,
+    "accreditedVoters": 10921
+  },
+  {
+    "id": "osun-irepodun-2",
+    "name": "Irepodun Ward 2",
+    "lat": 7.88598,
+    "lng": 4.52565,
+    "lga": "Irepodun",
+    "votesCast": 9726,
+    "accreditedVoters": 10190
+  },
+  {
+    "id": "osun-irepodun-3",
+    "name": "Irepodun Ward 3",
+    "lat": 7.90482,
+    "lng": 4.51622,
+    "lga": "Irepodun",
+    "votesCast": 6564,
+    "accreditedVoters": 7050
+  },
+  {
+    "id": "osun-irepodun-4",
+    "name": "Irepodun Ward 4",
+    "lat": 7.90675,
+    "lng": 4.49375,
+    "lga": "Irepodun",
+    "votesCast": 10897,
+    "accreditedVoters": 11697
+  },
+  {
+    "id": "osun-irepodun-5",
+    "name": "Irepodun Ward 5",
+    "lat": 7.8882,
+    "lng": 4.4819,
+    "lga": "Irepodun",
+    "votesCast": 10885,
+    "accreditedVoters": 11617
+  },
+  {
+    "id": "osun-irepodun-6",
+    "name": "Irepodun Ward 6",
+    "lat": 7.8712,
+    "lng": 4.47256,
+    "lga": "Irepodun",
+    "votesCast": 6683,
+    "accreditedVoters": 6944
+  },
+  {
+    "id": "osun-irepodun-7",
+    "name": "Irepodun Ward 7",
+    "lat": 7.85827,
+    "lng": 4.48751,
+    "lga": "Irepodun",
+    "votesCast": 10607,
+    "accreditedVoters": 11000
+  },
+  {
+    "id": "osun-irepodun-8",
+    "name": "Irepodun Ward 8",
+    "lat": 7.83345,
+    "lng": 4.49303,
+    "lga": "Irepodun",
+    "votesCast": 9941,
+    "accreditedVoters": 10473
+  },
+  {
+    "id": "osun-irepodun-9",
+    "name": "Irepodun Ward 9",
+    "lat": 7.84756,
+    "lng": 4.51298,
+    "lga": "Irepodun",
+    "votesCast": 6247,
+    "accreditedVoters": 6778
+  },
+  {
+    "id": "osun-irepodun-10",
+    "name": "Irepodun Ward 10",
+    "lat": 7.85223,
+    "lng": 4.53141,
+    "lga": "Irepodun",
+    "votesCast": 8806,
+    "accreditedVoters": 9492
+  }
+]
