@@ -217,7 +217,7 @@ export default function App() {
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-border/20 overflow-hidden h-full">
                       {keyStats.map((item, i) => (
-                        <div key={item.label} className="flex flex-col justify-center gap-1.5 p-6 bg-[#0E1520]/60 hover:bg-[#0E1520]/80 transition-colors duration-150">
+                        <div key={item.label} className="flex flex-col justify-center gap-1.5 p-6 bg-surface-strong hover:bg-surface-raised transition-colors duration-150">
                           <span className="section-label">{item.label}</span>
                           <span className="value-display text-[24px] font-bold leading-none text-text-primary">{item.value}</span>
                           <span className="font-mono text-[10px] text-text-tertiary mt-0.5">{item.sub}</span>

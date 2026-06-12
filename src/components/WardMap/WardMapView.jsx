@@ -17,7 +17,7 @@ export default function WardMapView({ theme }) {
       </div>
       {selectedWard && (
         <div 
-          className="w-[35%] h-[520px] bg-surface/50 backdrop-blur-md transition-all duration-[400ms] ease-out border-l border-border"
+          className="w-[35%] h-[520px] bg-surface-strong transition-all duration-[400ms] ease-out border-l border-border"
           style={{ animation: 'slideIn 0.4s ease-out forwards' }}
         >
           <LgaStatsSidebar 

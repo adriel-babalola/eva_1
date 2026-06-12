@@ -38,6 +38,7 @@
 .bg-bg { background-color: var(--color-bg) !important; }
 .bg-surface { background-color: var(--color-surface) !important; }
 .bg-surface-raised { background-color: var(--color-surface-raised) !important; }
+.bg-surface-strong { background-color: var(--color-surface-strong) !important; }
 .text-text-primary { color: var(--color-text-primary) !important; }
 .text-text-secondary { color: var(--color-text-secondary) !important; }
 .text-text-tertiary { color: var(--color-text-tertiary) !important; }

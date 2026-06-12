@@ -144,7 +144,7 @@ export default function ResultsTable() {
     <div className="panel corner-bracket relative animate-card-entrance overflow-hidden" style={{ animationDelay: '120ms', animationFillMode: 'both' }}>
 
       {/* Toolbar */}
-      <div className="flex items-center justify-between px-5 py-3.5 border-b border-border bg-surface-raised/30">
+      <div className="flex items-center justify-between px-5 py-3.5 border-b border-border bg-surface-raised">
         <div className="flex items-center gap-3">
           <div className="w-[3px] h-4 bg-primary flex-shrink-0" />
           <h2 className="font-sans text-[13px] font-semibold text-text-primary tracking-wide uppercase">Result in Nigeria across 36 states</h2>
@@ -175,21 +175,21 @@ export default function ResultsTable() {
 
           {/* Head */}
           <thead>
-            <tr className="bg-surface-raised/40 border-b border-border-strong">
-              <th className="text-left py-3 px-5 section-label">Area Hierarchy</th>
-              <th className="text-right py-3 px-4 section-label">Voters Registered</th>
-              <th className="text-right py-3 px-4 section-label">Accredited Voters</th>
-              <th className="text-right py-3 px-4 section-label">Vote Casted</th>
+            <tr className="bg-surface-raised border-b border-border-strong">
+              <th className="text-left py-3 px-5 text-[10px] font-semibold uppercase tracking-[0.12em] font-mono text-text-tertiary">Area Hierarchy</th>
+              <th className="text-right py-3 px-4 text-[10px] font-semibold uppercase tracking-[0.12em] font-mono text-text-tertiary">Voters Registered</th>
+              <th className="text-right py-3 px-4 text-[10px] font-semibold uppercase tracking-[0.12em] font-mono text-text-tertiary">Accredited Voters</th>
+              <th className="text-right py-3 px-4 text-[10px] font-semibold uppercase tracking-[0.12em] font-mono text-text-tertiary">Vote Casted</th>
               {PARTY_COLS.map(p => (
-                <th key={p.key} className="text-right py-3 px-4 section-label">
+                <th key={p.key} className="text-right py-3 px-4 text-[10px] font-semibold uppercase tracking-[0.12em] font-mono text-text-tertiary">
                   <span className="inline-flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5" style={{ background: p.color }} />
                     {p.label}
                   </span>
                 </th>
               ))}
-              <th className="text-right py-3 px-4 section-label border-l border-border">Total Valid</th>
-              <th className="text-center py-3 px-5 section-label">Status</th>
+              <th className="text-right py-3 px-4 text-[10px] font-semibold uppercase tracking-[0.12em] font-mono text-text-tertiary border-l border-border">Total Valid</th>
+              <th className="text-center py-3 px-5 text-[10px] font-semibold uppercase tracking-[0.12em] font-mono text-text-tertiary">Status</th>
             </tr>
           </thead>
 

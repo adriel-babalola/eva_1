@@ -124,8 +124,9 @@ export default function Navbar({ active, setActive, theme, setTheme }) {
               </svg>
             )}
           </button>
-          <div className="sidebar-tooltip absolute left-full ml-2 top-1/2 -translate-y-1/2 px-3 py-1.5 panel-raised border border-border-strong text-[11px] font-mono font-medium text-text-primary whitespace-nowrap z-50">
-            {theme === 'dark' ? 'Light Theme' : 'Dark Theme'}
+          <div className="sidebar-tooltip absolute left-full -ml-14 top-1/2 -translate-y-1/2 px-3 py-1.5 panel-raised border border-border-strong text-[11px] font-mono font-medium text-text-primary whitespace-nowrap z-50">
+            {/* {theme === 'dark' ? 'Light Theme' : 'Dark Theme'} */}
+             Light
             <div className="absolute right-full top-1/2 -translate-y-1/2 border-4 border-transparent border-r-[var(--color-surface-raised)]" />
           </div>
         </div>
@@ -136,7 +137,7 @@ export default function Navbar({ active, setActive, theme, setTheme }) {
             <span className="animate-ping absolute inline-flex h-full w-full bg-success opacity-60" />
             <span className="relative inline-flex h-2 w-2 bg-success animate-live-glow" />
           </span>
-          <div className="sidebar-tooltip absolute left-full ml-2 top-1/2 -translate-y-1/2 px-3 py-1.5 panel-raised border border-border-strong text-[11px] font-mono font-medium text-text-primary whitespace-nowrap z-50">
+          <div className="sidebar-tooltip absolute left-full -ml-30 top-1/2 -translate-y-1/2 px-3 py-1.5 panel-raised border border-border-strong text-[11px] font-mono font-medium text-text-primary whitespace-nowrap z-50">
             System Online (Live)
             <div className="absolute right-full top-1/2 -translate-y-1/2 border-4 border-transparent border-r-[var(--color-surface-raised)]" />
           </div>
@@ -147,7 +148,7 @@ export default function Navbar({ active, setActive, theme, setTheme }) {
           <button className="w-8 h-8 bg-primary/15 border border-border-strong flex items-center justify-center text-primary text-[10px] font-mono font-bold transition-all duration-150 hover:bg-primary/25">
             NG
           </button>
-          <div className="sidebar-tooltip absolute left-full ml-2 top-1/2 -translate-y-1/2 px-3 py-1.5 panel-raised border border-border-strong text-[11px] font-mono font-medium text-text-primary whitespace-nowrap z-50">
+          <div className="sidebar-tooltip absolute left-full -ml-24 top-1/2 -translate-y-1/2 px-3 py-1.5 panel-raised border border-border-strong text-[11px] font-mono font-medium text-text-primary whitespace-nowrap z-50">
             INEC Admin
             <div className="absolute right-full top-1/2 -translate-y-1/2 border-4 border-transparent border-r-[var(--color-surface-raised)]" />
           </div>

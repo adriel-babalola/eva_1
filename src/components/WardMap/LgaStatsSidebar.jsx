@@ -10,11 +10,11 @@ export default function LgaStatsSidebar({ ward, stats, onClose }) {
   ];
 
   return (
-    <div className="h-full p-6 flex flex-col gap-6" style={{ background: '#0E1520' }}>
+    <div className="h-full p-6 flex flex-col gap-6 bg-surface-strong">
       {/* Header section */}
       <div className="flex items-start justify-between">
         <div>
-          <span className="section-label" style={{ color: 'rgba(0, 200, 150, 0.4)' }}>WARD DETAILS</span>
+          <span className="section-label">WARD DETAILS</span>
           <h3 className="font-sans font-bold text-[18px] text-text-primary leading-tight mt-1">
             {ward.name}
           </h3>
