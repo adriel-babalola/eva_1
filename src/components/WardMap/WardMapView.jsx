@@ -4,7 +4,7 @@ import LgaStatsSidebar from './LgaStatsSidebar';
 import osunWards from '../../data/osunWards.json';
 import osunLgaStats from '../../data/osunLgaStats.json';
 
-export default function WardMapView() {
+export default function WardMapView({ theme }) {
   const [selectedWard, setSelectedWard] = useState(null);
 
   return (
@@ -13,7 +13,7 @@ export default function WardMapView() {
         className="transition-all duration-[400ms] ease-out"
         style={{ width: selectedWard ? '65%' : '100%', height: '520px' }}
       >
-        <MapPane wards={osunWards} selectedWard={selectedWard} onSelect={setSelectedWard} />
+        <MapPane theme={theme} wards={osunWards} selectedWard={selectedWard} onSelect={setSelectedWard} />
       </div>
       {selectedWard && (
         <div 

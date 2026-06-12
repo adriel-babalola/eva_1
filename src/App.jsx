@@ -26,6 +26,12 @@ export default function App() {
   const [electionType, setElectionType] = useState('Presidential')
   const [state, setState] = useState('Osun State')
   const [time, setTime] = useState(new Date())
+  const [theme, setTheme] = useState('dark')
+
+  // Theme effect
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+  }, [theme])
 
   // Live clock
   useEffect(() => {
@@ -56,16 +62,16 @@ export default function App() {
   ]
 
   return (
-    <div className="min-h-screen bg-bg font-sans text-text-primary flex" style={{ background: '#080B0F' }}>
+    <div className="min-h-screen bg-bg font-sans text-text-primary flex" style={{ background: 'var(--color-bg)' }}>
 
       {/* Sidebar */}
-      <Navbar active={activePage} setActive={setActivePage} electionType={electionType} setElectionType={setElectionType} state={state} setState={setState} />
+      <Navbar active={activePage} setActive={setActivePage} theme={theme} setTheme={setTheme} electionType={electionType} setElectionType={setElectionType} state={state} setState={setState} />
 
       {/* Main */}
       <div className="flex-1 flex flex-col min-h-screen" style={{ marginLeft: '64px' }}>
 
         {/* Top command bar */}
-        <header className="sticky top-0 z-40 border-b border-border-strong" style={{ background: '#0C1018' }}>
+        <header className="sticky top-0 z-40 border-b border-border-strong" style={{ background: 'var(--color-surface)' }}>
 
           {/* Top accent strip */}
           <div className="w-full h-[1px] bg-primary" />
@@ -243,7 +249,7 @@ export default function App() {
               <div className="sep-h flex-shrink-0" />
 
               {/* Ward Map View component */}
-              <WardMapView />
+              <WardMapView theme={theme} />
             </>
           ) : (
             <div className="panel p-8 text-center text-text-tertiary font-mono text-[12px] animate-card-entrance">
@@ -253,7 +259,7 @@ export default function App() {
         </main>
 
         {/* Footer */}
-        <footer className="border-t border-border mt-auto" style={{ background: '#0C1018' }}>
+        <footer className="border-t border-border mt-auto" style={{ background: 'var(--color-surface)' }}>
           <div className="px-6 py-3.5 flex flex-col md:flex-row justify-between items-center gap-1 text-[10px] text-text-tertiary font-mono">
             <div className="flex items-center gap-3">
               <span className="text-primary font-bold tracking-widest">EVA-1</span>

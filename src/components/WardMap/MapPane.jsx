@@ -95,7 +95,7 @@ const getLgaPolygon = (lgaWards) => {
   });
 };
 
-export default function MapPane({ wards, selectedWard, onSelect }) {
+export default function MapPane({ theme, wards, selectedWard, onSelect }) {
   // Group wards by LGA to construct boundary polygons
   const wardsByLga = {};
   wards.forEach(w => {
@@ -110,6 +110,15 @@ export default function MapPane({ wards, selectedWard, onSelect }) {
     coords: getLgaPolygon(wardsByLga[lgaName])
   }));
 
+  const isLight = theme === 'light';
+  const tileUrl = isLight 
+    ? "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+    : "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
+
+  const polyBorderColor = isLight ? 'rgba(0, 150, 108, 0.35)' : 'rgba(0, 200, 150, 0.2)';
+  const polyFillColor = isLight ? 'rgba(0, 150, 108, 0.04)' : 'rgba(0, 200, 150, 0.02)';
+  const polyTextColor = isLight ? '#00966C' : '#00C896';
+
   return (
     <MapContainer 
       center={[7.5629, 4.5199]} 
@@ -119,7 +128,7 @@ export default function MapPane({ wards, selectedWard, onSelect }) {
       attributionControl={false}
     >
       <TileLayer
-        url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+        url={tileUrl}
         attribution='&copy; OpenStreetMap contributors &copy; CARTO'
       />
       <MapController selectedWard={selectedWard} />
@@ -130,15 +139,15 @@ export default function MapPane({ wards, selectedWard, onSelect }) {
           key={poly.name}
           positions={poly.coords}
           pathOptions={{
-            color: 'rgba(0, 200, 150, 0.2)', // Sleek primary green border
-            fillColor: 'rgba(0, 200, 150, 0.02)',
+            color: polyBorderColor,
+            fillColor: polyFillColor,
             fillOpacity: 0.5,
             weight: 1.5,
             dashArray: '5, 5' // Tech-styled dash borders
           }}
         >
           <Tooltip sticky direction="center" className="ward-tooltip">
-            <div className="font-mono text-[10px] font-bold text-[#00C896] uppercase tracking-wide">
+            <div className="font-mono text-[10px] font-bold uppercase tracking-wide" style={{ color: polyTextColor }}>
               {poly.name} LGA Boundary
             </div>
           </Tooltip>

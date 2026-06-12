@@ -2,25 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-bg: #080B0F;
+  --color-surface: #0C1018;
+  --color-surface-raised: #111820;
+  --color-surface-strong: #0E1520;
+  --color-border: rgba(0, 200, 150, 0.08);
+  --color-border-strong: rgba(0, 200, 150, 0.14);
+  --color-border-bright: rgba(0, 200, 150, 0.3);
+  --color-text-primary: #E8F0EC;
+  --color-text-secondary: #A8C4B0;
+  --color-text-tertiary: #4A6355;
+  --color-primary: #00C896;
+  --color-primary-rgb: 0, 200, 150;
+  --color-bg-sidebar: #0E1520;
+}
+
+[data-theme="light"] {
+  --color-bg: #F3F6F4;
+  --color-surface: #FFFFFF;
+  --color-surface-raised: #EAEFEA;
+  --color-surface-strong: #E3EAE4;
+  --color-border: rgba(0, 150, 110, 0.15);
+  --color-border-strong: rgba(0, 150, 110, 0.25);
+  --color-border-bright: rgba(0, 150, 110, 0.5);
+  --color-text-primary: #121E17;
+  --color-text-secondary: #3D5C4C;
+  --color-text-tertiary: #708F7E;
+  --color-primary: #00966C;
+  --color-primary-rgb: 0, 150, 108;
+  --color-bg-sidebar: #EAEFEA;
+}
+
+/* Theme Override Utilities */
+.bg-bg { background-color: var(--color-bg) !important; }
+.bg-surface { background-color: var(--color-surface) !important; }
+.bg-surface-raised { background-color: var(--color-surface-raised) !important; }
+.text-text-primary { color: var(--color-text-primary) !important; }
+.text-text-secondary { color: var(--color-text-secondary) !important; }
+.text-text-tertiary { color: var(--color-text-tertiary) !important; }
+.border-border { border-color: var(--color-border) !important; }
+.border-border-strong { border-color: var(--color-border-strong) !important; }
+.border-border-bright { border-color: var(--color-border-bright) !important; }
+.text-primary { color: var(--color-primary) !important; }
+.bg-primary { background-color: var(--color-primary) !important; }
+.border-primary { border-color: var(--color-primary) !important; }
+
 /* ─── Base ───────────────────────────────────────────── */
 @layer base {
   * {
     scrollbar-width: thin;
-    scrollbar-color: rgba(0, 200, 150, 0.2) transparent;
+    scrollbar-color: rgba(var(--color-primary-rgb), 0.2) transparent;
     box-sizing: border-box;
   }
 
   *::-webkit-scrollbar { width: 4px; height: 4px; }
   *::-webkit-scrollbar-track { background: transparent; }
   *::-webkit-scrollbar-thumb {
-    background: rgba(0, 200, 150, 0.2);
+    background: rgba(var(--color-primary-rgb), 0.2);
     border-radius: 0;
   }
-  *::-webkit-scrollbar-thumb:hover { background: rgba(0, 200, 150, 0.4); }
+  *::-webkit-scrollbar-thumb:hover { background: rgba(var(--color-primary-rgb), 0.4); }
 
   ::selection {
-    background: rgba(0, 200, 150, 0.3);
-    color: #E8F0EC;
+    background: rgba(var(--color-primary-rgb), 0.3);
+    color: var(--color-text-primary);
   }
 
   html {
@@ -33,8 +79,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Space Grotesk', system-ui, sans-serif;
-    background-color: #080B0F;
-    color: #E8F0EC;
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -56,27 +102,27 @@
 
   /* ── Panel system (replaces glassmorphism with solid authority) ── */
   .panel {
-    background: #0C1018;
-    border: 1px solid rgba(0, 200, 150, 0.08);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
     position: relative;
   }
 
   .panel-raised {
-    background: #111820;
-    border: 1px solid rgba(0, 200, 150, 0.10);
+    background: var(--color-surface-raised);
+    border: 1px solid var(--color-border);
     position: relative;
   }
 
   .panel-strong {
-    background: #0E1520;
-    border: 1px solid rgba(0, 200, 150, 0.14);
+    background: var(--color-surface-strong);
+    border: 1px solid var(--color-border-strong);
     position: relative;
   }
 
   /* Active panel — highlighted state */
   .panel-active {
-    background: #162030;
-    border: 1px solid rgba(0, 200, 150, 0.30);
+    background: var(--color-surface-raised);
+    border: 1px solid var(--color-primary);
   }
 
   /* Corner accent — top-left command bracket */
