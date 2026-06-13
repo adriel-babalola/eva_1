@@ -88,7 +88,7 @@ export default function App() {
                 </svg>
                 <span className="font-mono text-[11px] font-bold text-primary tracking-[0.12em] uppercase">EVA-1</span>
                 <span className="font-mono text-[11px] text-text-tertiary">·</span>
-                <span className="font-mono text-[11px] text-text-tertiary tracking-wide">Election Verification Authority</span>
+                <span className="font-mono text-[11px] text-text-tertiary tracking-wide">Electoral Vote Aggregation System</span>
               </div>
 
               {/* Election type */}
